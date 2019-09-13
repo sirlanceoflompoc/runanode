@@ -1,5 +1,5 @@
 <h1 align="center">
-  rUN
+  rUNanode
 </h1>
 <p align="center">
   <a href="https://github.com/cennznet/runanode/blob/master/LICENSE">
@@ -17,29 +17,34 @@
   A node wallet that can stake CENNZ tokens
 </h3>
 <p align="center">
-  runanode is desktop version of node in Cennznet network
+  rUNanode is desktop version of node in Cennznet network
 </p>
 
-## Download
+## Download desktop software
 
 [runanode.io][runanode.io]
 
 ## Get started
 
 ```bash
-brew install jq
+brew install jq  // Or similar appoach on Linux and Windows
 npm i
 npm run dev
 ```
 
 ## Contribution
 
-- [Code of conduct][code_of_conduct]
-- [Contributing][contributing]
+Please read through [Code of conduct][code_of_conduct] and [Contributing guideline][contributing] before making any pull requests
+
+
+## Documentation
+
+- [Development guide][dev_guide]
+- [Set up local testnet in your machine][local_testnet]
 
 ## Support
 
-Join us on [CennznetDev Slack channel][cennznet_dev_slack] or Telegram @centralityofficialtelegram
+Join us on [CennznetDev Slack channel][cennznet_dev_slack]
 
 ## Disclaimer
 
@@ -52,7 +57,8 @@ money.
 See LICENSE for more info.
 
 [cennznet_dev_slack]: https://join.slack.com/t/centralitydev/shared_invite/enQtNjk5NjE1MDI5NjgzLWJlOTM2NjMxNTMyZDY0OGM0MjY2YjQ1YjJkNTk2ZTIzNTFmYmM3OTIwZWE3NzNhMzE4Mjg4MmY1YzBiZDk0ZDE
-[code_of_conduct]: docs/CODE_OF_CONDUCT.md
-[contributing]: docs/CONTRIBUTING.md
-[contributors]: docs/CONTRIBUTORS.md
+[code_of_conduct]: CODE_OF_CONDUCT.md
+[contributing]: CONTRIBUTING.md
 [runanode.io]: https://runanode.io
+[local_testnet]: docs/LOCAL_TESTNET.md
+[dev_guide]: docs/DEV_GUIDE.md
